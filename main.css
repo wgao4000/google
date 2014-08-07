@@ -91,8 +91,6 @@ text-shadow: none;
 display: inline-block;
 text-align: start;
 }
-footer ul.leftside{margin-top:15%;}
-footer ul.leftside li{display:block;float:left;margin-right:0%; }
 .Priv{float:right;}
 ul.newtype{float:right; margin-right:4%;margin-bottom:10em;}
 ul li a{text-decoration: none;}
@@ -113,7 +111,7 @@ border-radius: 2px; margin-left:0%;}
 
 input[type="text"] {
   width: 50em;
-  height: 3em;
+  height: 2.5em;
   padding: .25em;
   border: .1em solid black;
 }
@@ -122,8 +120,50 @@ input[type="text"] {
   width: 2em;
   height: 2em;
   position: absolute;
-  right: 4.5em;
+  right: 0em;
   top: .3em;
+}
+div{
+	min-height:0em;
+}
+.wrapper{
+	min-height:3em;
+}
+html,body{
+	height:94%;
+	font-family:sans_serif;
+	font-size:.9em;
+}
+.page-wrap{
+	min-height:49.5%;
+	margin-bottom:-3em;
+}
+.page-wrap:after{
+	content:"";
+	display:block;
+}
+.smallfooter{
+	display:none;
+}
+footer,.page-wrap:after{
+	height:3em;
+}
+footer{
+	color:rgb(102,102,102);
+	background:#f2f2f2;
+	border-top:1px solid #e4e4e4;
+	line-height:3em;
+}
+footer li{
+	display:inline;
+	margin:0 1em;
+}
+footer ul{
+	margin:0 1em;
+}
+footer ul + ul{
+	float:right;
+	margin-top:-3em;
 }
 @media screen and (max-width:800px){
   input[type="text"] {
@@ -143,5 +183,9 @@ input[type="text"] {
   }
   .buttons{
   	text-align:center;
+  }
+  
+  .regfooter{
+    display:none;
   }
 }
