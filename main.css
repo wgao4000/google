@@ -140,9 +140,6 @@ html,body{
 	content:"";
 	display:block;
 }
-.smallfooter{
-	display:none;
-}
 footer,.page-wrap:after{
 	height:3em;
 }
