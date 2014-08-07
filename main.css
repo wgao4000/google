@@ -124,11 +124,9 @@ input[type="text"] {
   top: .3em;
 }
 div{
-	min-height:0em;
-}
-.wrapper{
 	min-height:10em;
 }
+
 html,body{
 	height:100%;
 	font-family:sans_serif;
