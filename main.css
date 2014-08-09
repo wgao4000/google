@@ -190,7 +190,7 @@ footer ul + ul{
   }
   footer ul+ul{
   	float:none;
-  	margin-top:-4em;
+  	margin-top:-1em;
   }
   .page-wrap{
   	margin-bottom:-6em;
