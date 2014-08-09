@@ -186,16 +186,16 @@ footer ul + ul{
   	text-align:center;
   }
   footer ul{
-  	margin-top:1em;
+  	margin-top:4em;
   }
   footer ul+ul{
   	float:none;
-  	margin-top:-1em;
+  	margin-top:-4em;
   }
   .page-wrap{
   	margin-bottom:-6em;
   }
   footer,.page-wrap:after{
-  	height:10em;
+  	height:6em;
   }
 }
