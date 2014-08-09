@@ -93,7 +93,7 @@ text-align: start;
 }
 ul.newtype{float:right; margin-right:4%;margin-bottom:10em;}
 ul li a{text-decoration: none;}
-.thisimage{margin-top:20%; margin-bottom:-20%; }
+
 button a{white-space:nowrap;}
 li button{background: -webkit-linear-gradient(top,#4387fd,#4683ea); /* For Safari 5.1 to 6.0 */
 background: -o-linear-gradient(top,#4387fd,#4683ea); /* For Opera 11.1 to 12.0 */
