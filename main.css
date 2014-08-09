@@ -162,6 +162,10 @@ footer ul + ul{
 	float:right;
 	margin-top:-48px;
 }
+.thegrid{
+	position:relative;
+	top:1em;
+}
 @media screen and (max-width:800px){
   input[type="text"] {
   	width:95%;
