@@ -182,7 +182,21 @@ footer ul + ul{
   	text-align:center;
   }
   
-  .regfooter{
-    display:none;
+  footer{
+  	linear-height:1em;
+  	text-align:center;
+  }
+  footer ul{
+  	margin-top:0em;
+  }
+  .Priv{
+  	float:none;
+  	margin-top:-2em;
+  }
+  .page-wrap{
+  	margin-bottom:-6em;
+  }
+  footer,.page-wrap:after{
+  	height:10em;
   }
 }
