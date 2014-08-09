@@ -113,6 +113,7 @@ input[type="text"] {
   height: 2.5em;
   padding: .25em;
   border: .1em solid black;
+  font-size:100%;
 }
 
 .micro {
