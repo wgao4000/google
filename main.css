@@ -91,7 +91,6 @@ text-shadow: none;
 display: inline-block;
 text-align: start;
 }
-.Priv{float:right;}
 ul.newtype{float:right; margin-right:4%;margin-bottom:10em;}
 ul li a{text-decoration: none;}
 .thisimage{margin-top:20%; margin-bottom:-20%; }
@@ -189,7 +188,7 @@ footer ul + ul{
   footer ul{
   	margin-top:0em;
   }
-  .Priv{
+  footer ul+ul{
   	float:none;
   	margin-top:-2em;
   }
