@@ -186,7 +186,7 @@ footer ul + ul{
   	text-align:center;
   }
   footer ul{
-  	margin-top:0em;
+  	margin-top:1em;
   }
   footer ul+ul{
   	float:none;
@@ -196,6 +196,6 @@ footer ul + ul{
   	margin-bottom:-6em;
   }
   footer,.page-wrap:after{
-  	height:8em;
+  	height:10em;
   }
 }
