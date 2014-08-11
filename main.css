@@ -91,9 +91,10 @@ text-shadow: none;
 display: inline-block;
 text-align: start;
 }
+footer ul+ul{float:right;}
 ul.newtype{float:right; margin-right:4%;margin-bottom:10em;}
 ul li a{text-decoration: none;}
-
+.thisimage{position:relative;top:1em;}
 button a{white-space:nowrap;}
 li button{background: -webkit-linear-gradient(top,#4387fd,#4683ea); /* For Safari 5.1 to 6.0 */
 background: -o-linear-gradient(top,#4387fd,#4683ea); /* For Opera 11.1 to 12.0 */
@@ -113,64 +114,53 @@ input[type="text"] {
   height: 2.5em;
   padding: .25em;
   border: .1em solid black;
-  font-size:100%;
 }
 
 .micro {
   width: 2em;
   height: 2em;
   position: absolute;
-  right: 2em;
+  right: 0em;
   top: .3em;
 }
 div{
-	min-height:0em;
+	min-height:10em;
 }
-.wrapper{
+/*.wrapper{
 	min-height:48px;
-}
+}*/
 html,body{
 	height:100%;
 	font-family:sans_serif;
 	font-size:.9em;
 }
-.page-wrap{
-	min-height:50%;
-	margin-bottom:-48px;
-}
-.page-wrap:after{
-	content:"";
-	display:block;
-}
-footer,.page-wrap:after{
-	height:48px;
+.push{
+	 min-height:100%;
+   height: auto !important;
+	 width:100%;
 }
 footer{
-	color:rgb(102,102,102);
-	background:#f2f2f2;
-	border-top:1px solid #e4e4e4;
-	line-height:48px;
+    color:rgb(102,102,102);
+    background:#f2f2f2;
+    border-top:1px solid #e4e4e4;
+    line-height:3em;
 }
 footer li{
-	display:inline;
-	margin:0 1em;
+    display:inline;
+    margin:0 1em;
 }
 footer ul{
-	margin:0 1em;
+    margin:0 1em;
 }
 footer ul + ul{
-	float:right;
-	margin-top:-48px;
+    float:right;
+    margin-top:-3em;
 }
-.thegrid{
-	position:relative;
-	top:1em;
-}
-@media screen and (max-width:800px){
+@media screen and (max-width:50em){
   input[type="text"] {
   	width:95%;
   };
-  .priv,.leftside{
+  footer ul+ul,.leftside{
   	clear:both;
   	margin:0 auto;
   	display:block;
@@ -185,22 +175,22 @@ footer ul + ul{
   .buttons{
   	text-align:center;
   }
-  
-  footer{
-  	linear-height:1em;
-  	text-align:center;
+ footer {
+  line-height: 1em;
+  text-align: center;
+}
+footer ul {
+  margin-top: 4em;
+}
+footer ul+ul {
+  float: none;
+  margin-top: -4em;
+}
+.newpush{
+    margin-bottom:-6em;
   }
-  footer ul{
-  	margin-top:0em;
+  footer,.newpush{
+    height:6em;
   }
-  footer ul+ul{
-  	float:none;
-  	margin-top:-2em;
-  }
-  .page-wrap{
-  	margin-bottom:-6em;
-  }
-  footer,.page-wrap:after{
-  	height:10em;
-  }
+
 }
